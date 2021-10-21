@@ -1,5 +1,6 @@
 class Number {
-    private final int n;    
+    private final int n;  
+    
     Number(int n) {
         this.n = n;
     }

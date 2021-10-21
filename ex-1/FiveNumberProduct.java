@@ -1,6 +1,7 @@
+@SuppressWarnings("unused")
 class Multiplier {
     private final int first;
-    private final int second;
+	private final int second;
     private final int third;
     private final int fourth;
     private final int fifth;

@@ -3,7 +3,7 @@
 *
 * @author Luca Negrini
 */
-class Number {
+class Number1 {
     
     /**
     * The internal number contained in this instance.
@@ -15,7 +15,7 @@ class Number {
     * 
     * @param n the integer number to hold
     */
-    Number(int n) {
+    Number1(int n) {
         this.n = n;
     }
     
@@ -37,7 +37,7 @@ class Number {
     *
     * @return a new number instance containing the sum of {@code this} and {@code other}
     */
-    Number add(Number other) {
-        return new Number(this.n + other.n);
+    Number1 add(Number1 other) {
+        return new Number1(this.n + other.n);
     }
 }
